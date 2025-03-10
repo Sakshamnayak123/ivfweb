@@ -1,0 +1,15 @@
+.appointment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(108, 211, 108);
+
+}
+.diva1 a{
+    font-size: 45px;
+}

@@ -1,0 +1,89 @@
+#body{
+    background-image: url(a3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+.loginpage{
+    display: flex;
+    justify-content: center;
+  
+}
+.login{
+    border: 1px solid;
+    padding: 30px;
+    background-color: #ffffff95;
+
+ 
+
+    input{
+        width: 100%;
+        background-color:rgb(238, 207, 207);
+        padding: 8px;
+        border-radius: 15px;
+        border-style: none;
+    }
+   
+   
+}
+.login h1{
+    font-size:45px;
+}
+.d1{
+    text-align: center;
+}
+input::placeholder{
+    color: black;
+}
+input:hover{
+    background-color: lightcoral;
+    color: white;
+    border: 2px solid black;
+}
+
+</style>
+
+<link rel="stylesheet" href="page3.css">
+</head>
+<body id="body">
+<div class="loginpage">
+<div class="login">
+
+<form action="book_page.html">
+    <div class="d1">
+
+        <h1>Avil IVF</h1>
+        <h2>An LVF Center</h2>
+        <p>Contact Avil IVF</p>
+        <p>(214)225-2057</p>
+
+    </div>
+    <hr>
+   
+  
+
+<label for="fname">Fname</label>
+<input type="text" placeholder="Enter your First name" id="fname" required><br><br>
+
+<label for="lname">Lname</label>
+<input type="text" placeholder="Enter your Last name" id="lname" required><br><br><br>
+
+
+
+<label for="name">Email</label>
+<input type="text" placeholder="Enter your Email" id="Emeail" required><br><br>
+
+<label for="contact">Contact</label>
+<input type="text" placeholder="Enter your Contact number" id="contact" required><br><br>
+
+<select name="" id="">
+    <option value="Country">Country</option>
+    <option value="">India</option>
+    <option value="">Pakistan</option>
+    <option value="">china</option>
+    <option value="">Russia</option>
+    <option value="">England</option>
+    <option value="">Japan</option>
+    <option value="">Korea</option>
+    <option value="">Afghanistan</option>

@@ -1,0 +1,316 @@
+.parent{
+    background-image: url(plant2.webp);
+    background-size:cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+    color: white;
+    list-style: none;
+
+}
+.navbar h1{
+    font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-size: 48px;
+  font-style: normal;
+  color: white;
+}
+.navbar h2{
+    font-family: "Prompt",;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+}
+
+.navbar label{
+    display: none;
+}
+.navbar button{
+
+    background-color: rgb(179, 203, 248);
+    border: none;
+    padding: 7px 2%;
+    border-radius: 20%;
+}
+
+
+
+
+
+
+.section{
+    display: grid;
+    height: 80vh;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(1,auto) ;
+    gap: 20px;
+}
+.c1,.c2,.c3,.c4{
+       
+       color: black;
+       margin: 25px;
+       padding top: 20px;
+       padding: 25px;
+       border-radius: 5%;
+       
+       
+
+}
+
+.section button{
+    background-color:rgb(179, 203, 248) ;
+    border: none;
+    padding: 7px 2%;
+    border-radius: 30%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(1,auto);
+    height: 100vh;
+    }
+    .b1,.b2{
+
+    }
+
+.b2 {
+    align-items: center;
+    margin: 10px;
+    padding: all side
+    background-color:rgb(249, 247, 247);
+}
+.b2 button{
+    background-color:rgb(179, 203, 248) ;
+    border: none;
+    padding: 15px 2%;
+    border-radius: 20%;
+    margin: 60px;
+}
+.blueflower{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(1,auto);
+    height: 100vh;
+    
+
+}
+.blue,.flower{
+}
+.blueflower .blue{
+    background-image: url(blue\ bg1.jpg);
+    background-size: cover;
+    width: 970;
+    
+    color: white;
+    margin: 20px
+    
+}
+
+
+.menote{
+    background-image: url(N4.jpg);
+    
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.successrate{
+    background-image: url(b.jpg);
+    background-size: cover;
+    color: white;
+    margin-top: 50px ;
+}
+.successrate button{
+
+    background-color: lightgray;
+    border: none;
+    padding: 15px 2%;
+   border-radius:50% ;
+    margin-left : 650px;
+    
+}
+
+.paying{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(1,auto);
+    height: 120vh;
+    
+   
+
+}
+.p1,.p2{
+    
+
+}
+ .p1{
+    background-image: url(BLUE4.jpg);
+    background-size: cover;
+    color: white;
+ }
+ .p1 h1{
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 100;
+ }
+ .p1 h4{
+    margin: 20px;
+ }
+ .p1 button{
+    background-color:rgb(179, 203, 248) ;
+    border: none;
+    padding: 17px 2%;
+    border-radius: 40%;
+    margin-top: 200px;
+    margin-left: 20px;
+    
+ }
+
+ .skyblue{
+    background-color: rgb(116, 147, 148);
+    font-size: 40px;
+    font-weight: 100;
+    font-style: oblique;
+    padding: 0px;
+    
+ }
+.skyblue h1{
+
+}
+
+ .skyblue button{
+    background-color:rgb(167, 220, 239) ;
+    border: none;
+    padding: 17px 2%;
+    border-radius: 40%;
+    margin-left: 630px;
+    margin-top: 0%;
+    margin-bottom: 40px;
+ }
+ .w1{
+    background-color: rgb(236, 241, 241);
+    margin-top: 0%;
+ }
+ .w1 h1{
+    font-size: 40px;
+    font-weight: 200;
+ }
+ .w1 h4 {
+   font-size: 20px;
+ }
+   
+
+ .last{
+    background-image: url(BLUE4.jpg);
+    background-size: cover;
+    display: grid;
+    height: 40vh;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(1,auto) ;
+    gap: 20px;
+
+ }
+ .l1,.l2,.l3,.l4{
+    
+    
+   
+ }
+ .l1 h1{
+    font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-size: 58px;
+  font-style: normal;
+  color: white;
+  margin: 12px;
+  margin-top: 30px;
+}
+.l1 h2{
+    font-family: "Prompt",;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+  margin: 12px;
+}
+
+.l2{
+    color: white;
+    font-size: 10px;
+}
+.l2 h2{
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.l3 h1{
+    color: white;
+    font-size: 20px;
+}
+.l3 h2{
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.l4{
+    color: white;
+    font-size: 10px;
+}
+.l4 ul{
+    font-size: 35px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#click:checked~.navbar ul{
+    display: block;
+     }
+    
+     @media screen and (max-width:650px){
+        .navbar label{
+            display: block;
+        }
+        .navbar ul{
+            display: none;
+            position: absolute;
+            top: 90px;
+            background-color: blue;
+            width: 100;
+        }
+    
+        .navbar ul li{
+            padding: 20px;
+            color: beige;
+        }
